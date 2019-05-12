@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test_1">
+    <parameter name="sUsername" value="pavithraparu23@gmail.com"></parameter>
+    <parameter name="sPassword" value="PAMI@astm123"></parameter>
+       <classes>
+       		<class name="data_driven_Test.TestingParameters"></class>
+       </classes>
+  </test>
+  <test thread-count="5" name="Test_2">
+    <parameter name="sUsername" value="pavithraparu23@gmail.com"></parameter>
+    <parameter name="sPassword" value="ghggsdag"></parameter>
+       <classes>
+       		<class name="data_driven_Test.TestingParameters"></class>
+       </classes>
+  </test>
+   <!-- Test_1 -->
+</suite> <!-- Suite -->
